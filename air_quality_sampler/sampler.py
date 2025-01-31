@@ -28,7 +28,7 @@ class AirQualitySampler:
         url = "https://api.waqi.info/map/bounds/"
         params = {
             "latlng": f"{lat1},{lon1},{lat2},{lon2}",
-            "token": "demo"  # Replace with your AQICN API token if needed
+            "token": "0b078f2ecf07cd80eca5dcee52bd8a67af08b66a" # my private api token downloaded from the website
         }
         try:
             response = requests.get(url, params=params, timeout=10)
